@@ -23,7 +23,33 @@ This project implements a lightweight API using **FastAPI** and **RandomForestRe
 
 Below are screenshots of successful API tests using SwaggerUI after deployment:
 
+  ## API Demonstration
 
+  ### 1. Input Form
+  This shows how a user inputs the meal ID and day of week to query the API.
+
+  ![Input Form](./InventoryOptiParams.jpg)
+
+  ---
+
+  ### 2. Valid Output
+  The API returns the predicted demand and current recurring stock when valid inputs are provided.
+
+  ![Valid Output](./InventoryOptiResults.jpg)
+
+  ---
+
+  ### 3. Invalid Input Format
+  If the input format is incorrect (e.g., lowercase day), the API returns a helpful error message.
+
+  ![Invalid Format](./InventoryOptiWrongParams.jpg)
+
+  ---
+
+### 4. Error Prompt Response
+This shows the exact error response and the list of accepted day values.
+
+![Error Prompt](./InventoryOptiWrongResultsPrompts.jpg)
 
 > *All predictions were rounded and displayed along with current recurring stock (from dataset).*
 
