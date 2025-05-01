@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 app = FastAPI()
 
 # Data Load and preprocess
-file_path = r"C:\Users\chan-\OneDrive\Desktop\Y4\StockOptiMLV2.csv"
+file_path = r""
 df = pd.read_csv(file_path)
 
 # Convert to datetime
